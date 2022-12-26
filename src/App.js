@@ -5,12 +5,12 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h2>Nome Livro</h2>
+        <h1>Book Name</h1>
       </header>
-      <main>
-        <img src={Logo} alt="Book" style={{ width: '300px' }} />
-        <h4>Start of synopsis ...</h4>
-        <p>
+      <main className='align-center'>
+        <img className='image-format' src={Logo} alt="Book" />
+        <h2>Start of synopsis ...</h2>
+        <p className='format-long-text'>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -21,23 +21,32 @@ function App() {
           laborum."
         </p>
       </main>
-      <section>
-        <img src={Logo} alt="Author" style={{ width: '300px' }} />
-        <h3>
+      <section className='align-center'>
+        <img className='image-format' src={Logo} alt="Author" />
+        <h2>
           Author Name
-        </h3>
-        <p>
-          Aboth the author: Lorem ipsum dolor sit amet, consectetur adipiscing elit ...
+        </h2>
+        <p className='format-long-text'>
+          Aboth the author: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+          non proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum."
         </p>
       </section>
-      <section>
-        <h3>
+      <section className='align-center'>
+        <h2>
           Buy the book
-        </h3>
-        <p>
+        </h2>
+        <p className='format-long-text'>
           To continue reading the book, simply purchase its digital version right here.
         </p>
-        <a href="https://www.packzin.com.br/" target="_blank" rel='noreferrer'>Pursh</a>
+        <div className='button' >
+          <a href="https://www.packzin.com.br/" target="_blank" rel='noreferrer' className='link'>Pursh</a>
+        </div>
       </section>
     </div>
   );

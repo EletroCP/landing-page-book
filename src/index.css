@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,100&display=swap');
+
 body {
+  border: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Chivo Mono', monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(34, 54, 54);
+  color: rgb(175, 183, 192);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Chivo Mono', monospace, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
