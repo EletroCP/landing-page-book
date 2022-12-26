@@ -8,7 +8,7 @@ function App() {
         <h2>Nome Livro</h2>
       </header>
       <main>
-        <img src={ Logo } alt="Author" style={{ width: '500px'}} />
+        <img src={Logo} alt="Book" style={{ width: '300px' }} />
         <h4>Start of synopsis ...</h4>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -22,6 +22,7 @@ function App() {
         </p>
       </main>
       <section>
+        <img src={Logo} alt="Author" style={{ width: '300px' }} />
         <h3>
           Author Name
         </h3>
